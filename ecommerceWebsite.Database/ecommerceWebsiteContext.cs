@@ -11,7 +11,9 @@ namespace ecommerceWebsite.Database
     public class ecommerceWebsiteContext : DbContext
     {
         public ecommerceWebsiteContext() : base("ecommerceWebsiteConnection")
-        { }
+        {
+
+        }
         public DbSet<Category> Categories { get; set; }
 
         public DbSet<Product> Products { get; set; }
